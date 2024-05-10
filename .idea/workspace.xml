@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538ab7ba-0c70-47a0-9727-548586759651" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogRetriverServiceTest.java" afterDir="false" />
+    <list default="true" id="538ab7ba-0c70-47a0-9727-548586759651" name="Changes" comment="phase 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flibustier/Entity/TimestampEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Entity/TimestampEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogRetriverServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogRetriverServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,8 @@
     "JUnit.LogManagerTest.testStoreLog.executor": "Run",
     "JUnit.LogRetrieverServiceTest (1).executor": "Run",
     "JUnit.LogRetrieverServiceTest.executor": "Run",
+    "JUnit.LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithNoTimestampInDatabase_ReturnsNegativeOne.executor": "Run",
+    "JUnit.LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithTimestampInDatabase_ReturnsElapsedTimeInSeconds.executor": "Run",
     "JUnit.LogTimerTest (1).executor": "Run",
     "JUnit.LogTimerTest.executor": "Run",
     "JUnit.LogTimerTest.testCheckCondition (1).executor": "Run",
@@ -82,7 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LogRetrieverServiceTest (1)">
+  <component name="RunManager" selected="JUnit.LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithNoTimestampInDatabase_ReturnsNegativeOne">
     <configuration name="LogRetrieverServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RunReportScheduler" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,21 +108,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogTimerTest.testCheckCondition_NoConditionMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithNoTimestampInDatabase_ReturnsNegativeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RunReportScheduler" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LogTimerTest" />
-      <option name="METHOD_NAME" value="testCheckCondition_NoConditionMet" />
+      <option name="MAIN_CLASS_NAME" value="LogRetrieverServiceTest" />
+      <option name="METHOD_NAME" value="testCalculateElapsedTimeSinceLastLog_WithNoTimestampInDatabase_ReturnsNegativeOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimestampEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithTimestampInDatabase_ReturnsElapsedTimeInSeconds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RunReportScheduler" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimestampEntityTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="LogRetrieverServiceTest" />
+      <option name="METHOD_NAME" value="testCalculateElapsedTimeSinceLastLog_WithTimestampInDatabase_ReturnsElapsedTimeInSeconds" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithNoTimestampInDatabase_ReturnsNegativeOne" />
+        <item itemvalue="JUnit.LogRetrieverServiceTest.testCalculateElapsedTimeSinceLastLog_WithTimestampInDatabase_ReturnsElapsedTimeInSeconds" />
         <item itemvalue="JUnit.LogRetrieverServiceTest (1)" />
         <item itemvalue="JUnit.LogRetrieverServiceTest" />
         <item itemvalue="JUnit.TimestampServiceTest" />
-        <item itemvalue="JUnit.TimestampEntityTest" />
-        <item itemvalue="JUnit.LogTimerTest.testCheckCondition_NoConditionMet" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +164,23 @@
       <updated>1712576525850</updated>
       <workItem from="1712576527289" duration="90310000" />
     </task>
+    <task id="LOCAL-00001" summary="phase 7">
+      <option name="closed" value="true" />
+      <created>1715340172305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715340172305</updated>
+    </task>
+    <task id="LOCAL-00002" summary="phase 7">
+      <option name="closed" value="true" />
+      <created>1715340223993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715340223994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +196,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="phase 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

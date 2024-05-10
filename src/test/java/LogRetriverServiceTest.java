@@ -8,6 +8,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import java.time.LocalDateTime;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -59,5 +60,31 @@ class LogRetrieverServiceTest {
         when(timestampRepository.findById(1L)).thenReturn(Optional.empty());
         boolean result = logRetrieverService.isLastPrintSuccessful();
         assertFalse(result);
+    }
+
+    @Test
+    void testCalculateElapsedTimeSinceLastLog_WithTimestampInDatabase_ReturnsElapsedTimeInSeconds() {
+
+        LocalDateTime currentTimestamp = LocalDateTime.now();
+        LocalDateTime lastLogTimestamp = currentTimestamp.minusMinutes(2);
+        TimestampEntity timestampEntity = new TimestampEntity();
+        timestampEntity.setId(1L);
+        timestampEntity.setLatestLog(lastLogTimestamp);
+
+        when(timestampRepository.findById(1L)).thenReturn(Optional.of(timestampEntity));
+
+        long elapsedTime = logRetrieverService.calculateElapsedTimeSinceLastLog();
+
+        assertEquals(120, elapsedTime); // 120 seconds elapsed between 14:30:00 and 14:32:00
+    }
+
+    @Test
+    void testCalculateElapsedTimeSinceLastLog_WithNoTimestampInDatabase_ReturnsNegativeOne() {
+
+        when(timestampRepository.findById(1L)).thenReturn(Optional.empty());
+
+        long elapsedTime = logRetrieverService.calculateElapsedTimeSinceLastLog();
+
+        assertEquals(-1, elapsedTime); // Indicates no timestamp found in the database
     }
 }

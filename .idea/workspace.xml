@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="538ab7ba-0c70-47a0-9727-548586759651" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Entity/TimestampEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/LogTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Repository/TimestampRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/TimestampService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogTimerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TimestampEntityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TimestampServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LogRetriverServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flibustier/Entity/TimestampEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Entity/TimestampEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +25,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JavaAutoRunManager">
     <enabled-run-configurations>
       <run-configuration type="JUnit" name="LogTimerTest (1)" />
     </enabled-run-configurations>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2eogoxnxSJorHyYJpfts7RznfYK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,10 +47,13 @@
   "keyToString": {
     "JUnit.LogManagerTest.executor": "Run",
     "JUnit.LogManagerTest.testStoreLog.executor": "Run",
+    "JUnit.LogRetrieverServiceTest (1).executor": "Run",
+    "JUnit.LogRetrieverServiceTest.executor": "Run",
     "JUnit.LogTimerTest (1).executor": "Run",
     "JUnit.LogTimerTest.executor": "Run",
     "JUnit.LogTimerTest.testCheckCondition (1).executor": "Run",
     "JUnit.LogTimerTest.testCheckCondition.executor": "Run",
+    "JUnit.LogTimerTest.testCheckCondition_NoConditionMet.executor": "Run",
     "JUnit.LogTimerTest.testCheckCondition_NoIntervalElapsed.executor": "Run",
     "JUnit.LogTimerTest.testRetrieveSuccessStatusFromDatabase.executor": "Run",
     "JUnit.LogTimerTest.testSetLog.executor": "Run",
@@ -91,27 +82,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TimestampServiceTest.testSaveTimestamp">
-    <configuration name="LogTimerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LogRetrieverServiceTest (1)">
+    <configuration name="LogRetrieverServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RunReportScheduler" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LogTimerTest" />
+      <option name="MAIN_CLASS_NAME" value="LogRetrieverServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogTimerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogRetrieverServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RunReportScheduler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.flibustier.*" />
+          <option name="PATTERN" value="com.flibustier.Service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.flibustier" />
-      <option name="MAIN_CLASS_NAME" value="com.flibustier.LogTimerTest" />
+      <option name="PACKAGE_NAME" value="com.flibustier.Service" />
+      <option name="MAIN_CLASS_NAME" value="com.flibustier.Service.LogRetrieverServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogTimerTest.testCheckCondition_NoConditionMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RunReportScheduler" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LogTimerTest" />
+      <option name="METHOD_NAME" value="testCheckCondition_NoConditionMet" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,23 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimestampServiceTest.testSaveTimestamp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RunReportScheduler" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TimestampServiceTest" />
-      <option name="METHOD_NAME" value="testSaveTimestamp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimestampServiceTest.testSaveTimestamp" />
-        <item itemvalue="JUnit.LogTimerTest (1)" />
-        <item itemvalue="JUnit.TimestampEntityTest" />
+        <item itemvalue="JUnit.LogRetrieverServiceTest (1)" />
+        <item itemvalue="JUnit.LogRetrieverServiceTest" />
         <item itemvalue="JUnit.TimestampServiceTest" />
-        <item itemvalue="JUnit.LogTimerTest" />
+        <item itemvalue="JUnit.TimestampEntityTest" />
+        <item itemvalue="JUnit.LogTimerTest.testCheckCondition_NoConditionMet" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +166,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

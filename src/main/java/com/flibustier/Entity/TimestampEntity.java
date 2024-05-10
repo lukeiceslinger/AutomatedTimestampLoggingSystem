@@ -1,22 +1,41 @@
 package com.flibustier.Entity;
 
-import jakarta.persistence.*;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "timestamp")
 public class TimestampEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id = 1L;
+    public Long id;
 
-    @Column(name = "lastLog")
-    private LocalDateTime lastLog;
-
-    @Column(name = "latestLog")
     private LocalDateTime latestLog;
+    private LocalDateTime lastLog;
+    private boolean printSuccessful;
+
+    // Getters and setters
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public LocalDateTime getLatestLog() {
+        return latestLog;
+    }
+
+    public void setLatestLog(LocalDateTime latestLog) {
+        this.latestLog = latestLog;
+    }
 
     public LocalDateTime getLastLog() {
         return lastLog;
@@ -26,19 +45,11 @@ public class TimestampEntity {
         this.lastLog = lastLog;
     }
 
-    public LocalDateTime getLatestLog() {
-        return this.latestLog;
+    public boolean isPrintSuccessful() {
+        return printSuccessful;
     }
 
-    public void setLatestLog(LocalDateTime latestLog) {
-        this.latestLog = latestLog;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
+    public void setPrintSuccessful(boolean printSuccessful) {
+        this.printSuccessful = printSuccessful;
     }
 }

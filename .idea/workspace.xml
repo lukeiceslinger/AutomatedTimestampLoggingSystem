@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538ab7ba-0c70-47a0-9727-548586759651" name="Changes" comment="phase 8" />
+    <list default="true" id="538ab7ba-0c70-47a0-9727-548586759651" name="Changes" comment="phase 8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogRetriverServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogRetriverServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

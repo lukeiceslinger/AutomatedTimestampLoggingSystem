@@ -87,4 +87,23 @@ class LogRetrieverServiceTest {
 
         assertEquals(-1, elapsedTime); // Indicates no timestamp found in the database
     }
+
+    @Test
+    void testShouldAttemptToPrintLog_LastPrintSuccessful_ReturnsTrue() {
+
+        LocalDateTime currentTimestamp = LocalDateTime.now();
+        LocalDateTime latestLogTimestamp = LocalDateTime.now().minusMinutes(5);
+        TimestampEntity timestampEntity = new TimestampEntity();
+
+        timestampEntity.setId(1L);
+        timestampEntity.setLatestLog(latestLogTimestamp);
+        timestampEntity.setPrintSuccessful(true);
+
+        when(timestampRepository.findById(1L)).thenReturn(Optional.of(timestampEntity));
+
+        boolean result = logRetrieverService.shouldAttemptToPrintLog(currentTimestamp);
+
+        assertTrue(result);
+    }
+
 }

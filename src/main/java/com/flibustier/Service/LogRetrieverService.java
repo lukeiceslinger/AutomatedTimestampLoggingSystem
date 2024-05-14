@@ -35,4 +35,22 @@ public class LogRetrieverService {
             return -1; // Indicates that no timestamp was found in the database
         }
     }
+
+    public void updateLastPrintTimestamp(LocalDateTime currentTimestamp, boolean printSuccessful) {
+        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L); // Assuming the timestamp is stored with ID 1
+        timestampOptional.ifPresent(timestampEntity -> {
+            timestampEntity.setLatestLog(currentTimestamp);
+            timestampEntity.setPrintSuccessful(printSuccessful);
+            timestampRepository.save(timestampEntity);
+        });
+    }
+
+    public boolean shouldAttemptToPrintLog(LocalDateTime currentTimestamp) {
+        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L); // Assuming the timestamp is stored with ID 1
+        return timestampOptional.map(timestampEntity -> {
+            LocalDateTime latestLogTimestamp = timestampEntity.getLatestLog();
+            return latestLogTimestamp.plusMinutes(5).isBefore(currentTimestamp) && !timestampEntity.isPrintSuccessful();
+        }).orElse(true);
+    }
+
 }

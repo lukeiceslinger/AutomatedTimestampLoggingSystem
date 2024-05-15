@@ -7,15 +7,13 @@ import org.mockito.ArgumentCaptor;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
 import java.time.LocalDateTime;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 public class TimestampServiceTest {
     LocalDateTime currentTime = LocalDateTime.now();
+
     @Mock
     private TimestampRepository timestampRepository;
 
@@ -29,7 +27,6 @@ public class TimestampServiceTest {
 
     @Test
     public void testSaveTimestamp() {
-
         timestampService.saveTimestamp(currentTime);
         ArgumentCaptor<TimestampEntity> argumentCaptor = ArgumentCaptor.forClass(TimestampEntity.class);
         verify(timestampRepository).save(argumentCaptor.capture());

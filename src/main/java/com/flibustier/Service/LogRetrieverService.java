@@ -4,7 +4,6 @@ import com.flibustier.Entity.TimestampEntity;
 import com.flibustier.Repository.TimestampRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -25,7 +24,7 @@ public class LogRetrieverService {
     }
 
     public long calculateElapsedTimeSinceLastLog() {
-        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L); // Assuming the timestamp is stored with ID 1
+        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L);
         if (timestampOptional.isPresent()) {
             LocalDateTime lastLogTimestamp = timestampOptional.get().getLatestLog();
             LocalDateTime currentTimestamp = LocalDateTime.now();
@@ -36,17 +35,8 @@ public class LogRetrieverService {
         }
     }
 
-    public void updateLastPrintTimestamp(LocalDateTime currentTimestamp, boolean printSuccessful) {
-        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L); // Assuming the timestamp is stored with ID 1
-        timestampOptional.ifPresent(timestampEntity -> {
-            timestampEntity.setLatestLog(currentTimestamp);
-            timestampEntity.setPrintSuccessful(printSuccessful);
-            timestampRepository.save(timestampEntity);
-        });
-    }
-
     public boolean shouldAttemptToPrintLog(LocalDateTime currentTimestamp) {
-        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L); // Assuming the timestamp is stored with ID 1
+        Optional<TimestampEntity> timestampOptional = timestampRepository.findById(1L);
         return timestampOptional.map(timestampEntity -> {
             LocalDateTime latestLogTimestamp = timestampEntity.getLatestLog();
             return latestLogTimestamp.plusMinutes(5).isBefore(currentTimestamp) && !timestampEntity.isPrintSuccessful();

@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="538ab7ba-0c70-47a0-9727-548586759651" name="Changes" comment="phase 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flibustier/Service/LogRetrieverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogTimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogTimerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TimestampServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TimestampServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

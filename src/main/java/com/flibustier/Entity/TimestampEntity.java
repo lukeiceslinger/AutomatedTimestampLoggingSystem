@@ -8,12 +8,12 @@ import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
 
-@Entity
+@Entity(name = "timestamp")
 public class TimestampEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long id;
+    private Long id;
 
     private LocalDateTime latestLog;
     private LocalDateTime lastLog;

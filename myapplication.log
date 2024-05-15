@@ -54,3 +54,185 @@
 2024-05-09T15:26:34.183+05:30  INFO 68659 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-09T15:26:34.214+05:30  INFO 68659 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-09T15:26:34.217+05:30  INFO 68659 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T14:57:54.894+05:30  INFO 7361 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7361 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T14:57:54.895+05:30  INFO 7361 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T14:57:55.074+05:30  INFO 7361 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T14:57:55.098+05:30  INFO 7361 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-05-15T14:57:55.236+05:30  INFO 7361 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T14:57:55.287+05:30  INFO 7361 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35f639fa
+2024-05-15T14:57:55.287+05:30  INFO 7361 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T14:57:55.457+05:30  INFO 7361 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T14:57:55.873+05:30  INFO 7361 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T14:57:56.029+05:30  INFO 7361 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.327 seconds (process running for 1.648)
+2024-05-15T14:58:59.604+05:30  INFO 7361 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T14:58:59.616+05:30  INFO 7361 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T14:58:59.629+05:30  INFO 7361 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:07:55.247+05:30  INFO 7519 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7519 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:07:55.249+05:30  INFO 7519 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:07:55.467+05:30  INFO 7519 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:07:55.504+05:30  INFO 7519 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-05-15T15:07:55.687+05:30  INFO 7519 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:07:55.748+05:30  INFO 7519 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d5d5621
+2024-05-15T15:07:55.749+05:30  INFO 7519 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:07:55.972+05:30  INFO 7519 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:07:56.423+05:30  INFO 7519 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:07:56.614+05:30  INFO 7519 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.759 seconds (process running for 2.337)
+2024-05-15T15:08:34.078+05:30  INFO 7519 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:08:34.081+05:30  INFO 7519 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:08:34.083+05:30  INFO 7519 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:10:57.890+05:30  INFO 7592 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7592 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:10:57.892+05:30  INFO 7592 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:10:58.078+05:30  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:10:58.098+05:30  INFO 7592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-05-15T15:10:58.226+05:30  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:10:58.280+05:30  INFO 7592 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a937336
+2024-05-15T15:10:58.281+05:30  INFO 7592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:10:58.451+05:30  INFO 7592 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:10:58.847+05:30  INFO 7592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:10:59.001+05:30  INFO 7592 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.308 seconds (process running for 1.674)
+2024-05-15T15:12:04.060+05:30  INFO 7592 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:12:04.081+05:30  INFO 7592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:12:04.087+05:30  INFO 7592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:15:04.961+05:30  INFO 7715 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7715 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:15:04.964+05:30  INFO 7715 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:15:05.182+05:30  INFO 7715 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:15:05.207+05:30  INFO 7715 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-05-15T15:15:05.514+05:30  INFO 7715 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:15:05.588+05:30  INFO 7715 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ec3633f
+2024-05-15T15:15:05.589+05:30  INFO 7715 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:15:05.796+05:30  INFO 7715 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:15:06.432+05:30  INFO 7715 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:15:06.646+05:30  INFO 7715 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.915 seconds (process running for 2.327)
+2024-05-15T15:16:12.201+05:30  INFO 7715 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:16:12.224+05:30  INFO 7715 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:16:12.230+05:30  INFO 7715 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:19:27.566+05:30  INFO 7770 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7770 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:19:27.573+05:30  INFO 7770 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:19:27.871+05:30  INFO 7770 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:19:27.898+05:30  INFO 7770 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-05-15T15:19:28.071+05:30  INFO 7770 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:19:28.215+05:30  INFO 7770 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13275d8
+2024-05-15T15:19:28.218+05:30  INFO 7770 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:19:28.455+05:30  INFO 7770 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:19:28.905+05:30  INFO 7770 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:19:29.085+05:30  INFO 7770 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.775 seconds (process running for 2.376)
+2024-05-15T15:20:08.142+05:30  INFO 7770 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:20:08.163+05:30  INFO 7770 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:20:08.170+05:30  INFO 7770 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:23:54.486+05:30  INFO 7835 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7835 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:23:54.487+05:30  INFO 7835 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:23:54.676+05:30  INFO 7835 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:23:54.698+05:30  INFO 7835 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-05-15T15:23:54.845+05:30  INFO 7835 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:23:54.896+05:30  INFO 7835 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b52dd31
+2024-05-15T15:23:54.897+05:30  INFO 7835 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:23:55.073+05:30  INFO 7835 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:23:55.479+05:30  INFO 7835 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:23:55.648+05:30  INFO 7835 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.384 seconds (process running for 1.668)
+2024-05-15T15:25:01.599+05:30  INFO 7835 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:25:01.608+05:30  INFO 7835 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:25:01.617+05:30  INFO 7835 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:28:01.501+05:30  INFO 7890 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7890 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:28:01.502+05:30  INFO 7890 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:28:01.690+05:30  INFO 7890 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:28:01.711+05:30  INFO 7890 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-05-15T15:28:01.842+05:30  INFO 7890 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:28:01.886+05:30  INFO 7890 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b52dd31
+2024-05-15T15:28:01.887+05:30  INFO 7890 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:28:02.060+05:30  INFO 7890 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:28:02.437+05:30  INFO 7890 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:28:02.598+05:30  INFO 7890 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.3 seconds (process running for 1.655)
+2024-05-15T15:28:42.289+05:30  INFO 7890 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:28:42.298+05:30  INFO 7890 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:28:42.304+05:30  INFO 7890 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:36:28.588+05:30  INFO 7976 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 7976 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:36:28.591+05:30  INFO 7976 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:36:28.790+05:30  INFO 7976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:36:28.812+05:30  INFO 7976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-05-15T15:36:28.942+05:30  INFO 7976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:36:29.006+05:30  INFO 7976 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35f639fa
+2024-05-15T15:36:29.007+05:30  INFO 7976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:36:29.317+05:30  INFO 7976 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:36:29.784+05:30  INFO 7976 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:36:30.053+05:30  INFO 7976 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.675 seconds (process running for 2.061)
+2024-05-15T15:37:33.959+05:30  INFO 7976 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:37:33.972+05:30  INFO 7976 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:37:33.978+05:30  INFO 7976 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:40:04.122+05:30  INFO 8047 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 8047 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:40:04.123+05:30  INFO 8047 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:40:04.348+05:30  INFO 8047 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:40:04.370+05:30  INFO 8047 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-05-15T15:40:04.503+05:30  INFO 8047 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:40:04.587+05:30  INFO 8047 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a937336
+2024-05-15T15:40:04.588+05:30  INFO 8047 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:40:04.766+05:30  INFO 8047 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:40:05.241+05:30  INFO 8047 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:40:05.401+05:30  INFO 8047 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.482 seconds (process running for 1.839)
+2024-05-15T15:40:13.919+05:30  INFO 8047 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:40:13.926+05:30  INFO 8047 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:40:13.937+05:30  INFO 8047 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:40:17.437+05:30  INFO 8075 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 8075 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:40:17.438+05:30  INFO 8075 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:40:17.628+05:30  INFO 8075 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:40:17.650+05:30  INFO 8075 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-05-15T15:40:17.785+05:30  INFO 8075 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:40:17.837+05:30  INFO 8075 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@35f639fa
+2024-05-15T15:40:17.838+05:30  INFO 8075 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:40:17.992+05:30  INFO 8075 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:40:18.561+05:30  INFO 8075 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:40:18.714+05:30  INFO 8075 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.481 seconds (process running for 1.764)
+2024-05-15T15:41:24.167+05:30  INFO 8075 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:41:24.194+05:30  INFO 8075 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:41:24.210+05:30  INFO 8075 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:43:28.926+05:30  INFO 8150 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 8150 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:43:28.928+05:30  INFO 8150 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:43:29.126+05:30  INFO 8150 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:43:29.147+05:30  INFO 8150 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-05-15T15:43:29.280+05:30  INFO 8150 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:43:29.349+05:30  INFO 8150 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@158f4cfe
+2024-05-15T15:43:29.349+05:30  INFO 8150 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:43:29.534+05:30  INFO 8150 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:43:30.246+05:30  INFO 8150 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:43:30.591+05:30  INFO 8150 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.925 seconds (process running for 2.27)
+2024-05-15T15:43:38.634+05:30  INFO 8150 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:43:38.642+05:30  INFO 8150 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:43:38.649+05:30  INFO 8150 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:43:39.990+05:30  INFO 8177 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 8177 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:43:39.991+05:30  INFO 8177 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:43:40.165+05:30  INFO 8177 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:43:40.186+05:30  INFO 8177 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-05-15T15:43:40.311+05:30  INFO 8177 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:43:40.352+05:30  INFO 8177 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2620e717
+2024-05-15T15:43:40.353+05:30  INFO 8177 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:43:40.525+05:30  INFO 8177 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:43:40.922+05:30  INFO 8177 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:43:41.077+05:30  INFO 8177 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.265 seconds (process running for 1.677)
+2024-05-15T15:44:55.671+05:30  INFO 8177 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:44:55.686+05:30  INFO 8177 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:44:55.690+05:30  INFO 8177 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:47:08.403+05:30  INFO 8234 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 8234 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:47:08.405+05:30  INFO 8234 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:47:08.591+05:30  INFO 8234 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:47:08.612+05:30  INFO 8234 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-05-15T15:47:08.737+05:30  INFO 8234 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:47:08.797+05:30  INFO 8234 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b52dd31
+2024-05-15T15:47:08.798+05:30  INFO 8234 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:47:08.972+05:30  INFO 8234 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:47:09.363+05:30  INFO 8234 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:47:09.529+05:30  INFO 8234 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.328 seconds (process running for 1.64)
+2024-05-15T15:47:56.385+05:30  INFO 8234 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:47:56.405+05:30  INFO 8234 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:47:56.413+05:30  INFO 8234 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-15T15:48:08.134+05:30  INFO 8262 --- [main] com.flibustier.MainApplication           : Starting MainApplication using Java 21.0.2 with PID 8262 (/Users/Saransh/Documents/GitHub/RunReportScheduler/target/classes started by Saransh in /Users/Saransh/Documents/GitHub/RunReportScheduler)
+2024-05-15T15:48:08.137+05:30  INFO 8262 --- [main] com.flibustier.MainApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-15T15:48:08.334+05:30  INFO 8262 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-15T15:48:08.356+05:30  INFO 8262 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-05-15T15:48:08.665+05:30  INFO 8262 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-15T15:48:08.707+05:30  INFO 8262 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e042c99
+2024-05-15T15:48:08.708+05:30  INFO 8262 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-15T15:48:08.898+05:30  INFO 8262 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-15T15:48:09.290+05:30  INFO 8262 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:48:09.441+05:30  INFO 8262 --- [main] com.flibustier.MainApplication           : Started MainApplication in 1.534 seconds (process running for 1.902)
+2024-05-15T15:50:22.920+05:30  INFO 8262 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-15T15:50:22.938+05:30  INFO 8262 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-15T15:50:22.946+05:30  INFO 8262 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
